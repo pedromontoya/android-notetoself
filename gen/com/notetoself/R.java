@@ -176,9 +176,9 @@ public final class R {
         public static final int saveNote=0x7f090001;
     }
     public static final class layout {
-        public static final int activity_note_detail_edit=0x7f030000;
-        public static final int activity_note_overview=0x7f030001;
-        public static final int layout_note_list_item=0x7f030002;
+        public static final int note_entry_edit_activity=0x7f030000;
+        public static final int note_entry_list_activity=0x7f030001;
+        public static final int note_entry_list_item=0x7f030002;
     }
     public static final class menu {
         public static final int note_detail_edit=0x7f080000;
