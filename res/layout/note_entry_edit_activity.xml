@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:contentDescription="1.0"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/noteDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".99"
+        android:ems="10"
+        android:gravity="start"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/saveNote"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight=".5"
+            android:background="@color/LightGrey"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/cancelEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight=".5"
+            android:background="@color/LightGrey"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
